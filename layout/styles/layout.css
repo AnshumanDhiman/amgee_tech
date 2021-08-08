@@ -50,15 +50,13 @@ File: Layout CSS
 
 #header #logo{margin:10px 0 0 0;}
 #header #logo h1{margin:0; margin-left:0px ; padding:0; font-size:2.2rem; display:inline-block;}
-/* #header #logo img{width:50px; height:50px} */
-
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0 400px;}/* 400px => 200px for #introblocks negative margin */
+#pageintro{padding:200px 0 350px;}/* 400px => 200px for #introblocks negative margin */
 
-#pageintro article, #pageintro article p{display:block; max-width:95%; margin:0 auto; text-align:center;}
-#pageintro article p{max-width:75%; line-height:2rem;}
+#pageintro article, #pageintro article p{display:block; max-width:85%; margin:0 auto; text-align:center;}
+#pageintro article p{max-width:75%; line-height:2rem; font-size:medium;}
 #pageintro .heading{margin-bottom:20px; font-size:4rem;}
 #pageintro footer{margin-top:50px;}
 
