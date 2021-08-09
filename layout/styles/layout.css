@@ -207,8 +207,8 @@ This gives a smooth transition to "ALL" elements used in the layout - other than
 If you don't want it to fade all elements, you have to list the ones you want to be faded individually
 Delete it completely to stop fading
 --------------------------------------------------------------------------------------------------------------- */
-*, *::before, *::after{transition:all .3s ease-in-out;}
-#mainav form *{transition:none !important;}
+/* *, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;} */
 
 
 /* ------------------------------------------------------------------------------------------------------------ */
@@ -319,10 +319,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#B946AD !important;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
 .coloured{color:#FFFFFF; background-color:#A032AB;}
-.coloured .pink_btn, .coloured .pink_btn.inverse:hover{color:#FFFFFF; background-color:#161C21; border-color:#161C21;}
+.coloured .btn, .coloured .btn.inverse:hover{color:#FFFFFF; background-color:#161C21; border-color:#161C21;}
 
-.pink_btn, .pink_btn.inverse:hover{color:#FFFFFF; background-color:#B946AD; border-color:#B946AD;}
-.pink_btn:hover, .pink_btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#B946AD; border-color:#B946AD;}
+.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
 
 .imgover:hover::before{background-color:rgba(185,70,173,.5);/* #B946AD */}
 .imgover, .imgover:hover::after{color:#FFFFFF;}
