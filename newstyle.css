@@ -24,6 +24,7 @@
 min-height: 350px;
 }
 
+/* product cards upper gap*/
 section.hoc.container.clear{
 padding-top:0;
 }
@@ -33,5 +34,6 @@ main.hoc.container.clear{
 }
 
 
-
-/* color: rgb(83, 139, 243); */
+.nospace{
+    margin-top: 30px !important;
+}
