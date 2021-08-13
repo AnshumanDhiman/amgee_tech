@@ -37,3 +37,50 @@ main.hoc.container.clear{
 .nospace{
     margin-top: 30px !important;
 }
+
+
+/* Footer Icons */
+.icons {
+    text-align: center;
+}
+
+.icon1 {
+    padding: 0% 2%;
+}
+
+.icon1:hover {
+    color:#4267B2;
+    transform: scale(1.1);
+    transition: .5s;
+}
+.icon2 {
+    padding: 0% 2%;
+}
+
+.icon2:hover {
+    color:#8a3ab9;
+    transform: scale(1.1);
+    transition: .5s;
+}
+.icon3 {
+    padding: 0% 2%;
+}
+
+.icon3:hover {
+    color:#1DA1F2   ;
+    transform: scale(1.1);
+    transition: .5s;
+}
+.icon4 {
+    padding: 0% 2%;
+}
+
+.icon4:hover {
+    color:#FF0000;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.link_icon {
+    color:rgb(208, 204, 226);
+}
