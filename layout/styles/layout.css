@@ -63,7 +63,7 @@ File: Layout CSS
 
 /* Content Area
 --------------------------------------------------------------------------------------------------------------- */
-.container{padding:80px 0;}
+.container{padding:40px 0;}
 
 /* Content */
 .container .content{}
@@ -170,7 +170,7 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:80px 0;}
+#footer{padding:40px 0;}
 
 #footer .heading{margin-bottom:50px; font-size:1.2rem;}
 
@@ -306,7 +306,7 @@ td{border-width:0 1px;}
 
 /* Colours
 --------------------------------------------------------------------------------------------------------------- */
-body{color:#A5A6AA; background-color:#161C21;}
+body{color:#A5A6AA; /*background-color:#161C21;*/}
 a{color:rgb(83, 139, 243);}
 a:active, a:focus{background:transparent !important;}/* IE10 + 11 Bugfix - prevents grey background */
 hr, .borderedbox{border-color:#D7D7D7;}

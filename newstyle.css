@@ -50,7 +50,7 @@ main.hoc.container.clear{
 
 .icon1:hover {
     color:#4267B2;
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: .5s;
 }
 .icon2 {
@@ -58,8 +58,9 @@ main.hoc.container.clear{
 }
 
 .icon2:hover {
-    color:#8a3ab9;
-    transform: scale(1.1);
+    /* color:#8a3ab9; */
+    color:#c437d1;
+    transform: scale(1.2);
     transition: .5s;
 }
 .icon3 {
@@ -68,7 +69,7 @@ main.hoc.container.clear{
 
 .icon3:hover {
     color:#1DA1F2   ;
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: .5s;
 }
 .icon4 {
@@ -77,10 +78,28 @@ main.hoc.container.clear{
 
 .icon4:hover {
     color:#FF0000;
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition: .5s;
 }
 
 .link_icon {
     color:rgb(208, 204, 226);
 }
+
+/* contact icon in navbar */
+.caller-icon{
+height:20px;
+width:20px;
+vertical-align:middle;
+}
+
+/* hr tag above services section */
+.hr-1{
+    border-color: black;
+    width:90%;
+    margin:auto 5%;
+   }
+/* ------------------------------------------------------------------------------------------------ */
+   
+
+ 
