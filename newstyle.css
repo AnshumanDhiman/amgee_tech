@@ -9,6 +9,7 @@
 
 /* about us color */
 .about_color{
+    margin-top:0;
     color: rgb(83, 139, 243); /*github updated color*/
   /* color:#6060eb; */
   
@@ -22,6 +23,8 @@
 /* 3 cards on top */
 .images-3{
 min-height: 350px;
+box-shadow: 1px 2px 6px rgb(204, 201, 201);
+
 }
 
 /* product cards upper gap*/
