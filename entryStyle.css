@@ -5,12 +5,27 @@
 .cards {
   border-radius: 10px;
   text-align: center;
-  padding: 5% 10%;
+  padding: 2% 1%;
 }
+
+
+
+.read_more {
+  font-size: 0.5rem;
+}
+
+.card-header {
+  height: 8vh;
+}
+
 
 .card {
   background-color: rgb(73, 134, 248);
   margin-bottom: 30px;
+}
+
+.extra_space{
+  margin-top:5% ;
 }
 
 .card:hover {
@@ -21,39 +36,11 @@
 .card1 {
   transition: transform 0.5s ease;
   margin: auto;
-  height: 60vh;
+  height: 50vh;
   width: 100%;
 }
 
 .card1:hover {
-  transition: 0.5s;
-}
-
-.card2 {
-  transition: transform 0.5s ease;
-  margin: auto;
-  height: 60vh;
-  width: 100%;
-  background-image: url("images/val_maps.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.card2:hover {
-  transition: 0.5s;
-}
-
-.card3 {
-  transition: transform 0.5s ease;
-  margin: auto;
-  height: 60vh;
-  width: 100%;
-  background-image: url("images/val_ranks.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.card3:hover {
   transition: 0.5s;
 }
 
@@ -74,4 +61,18 @@
 
 .product_text {
   padding: 0 10%;
+}
+
+.image_edit1 {
+  height: 21vh;
+}
+
+
+
+@media screen and (max-width:750px){
+  .image_edit1 {
+    height: 25vh;
+    width: 100%;
+  }
+
 }
