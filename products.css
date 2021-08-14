@@ -1,0 +1,140 @@
+.products_heading {
+    padding: 2% 2% 0% ;
+    text-align: center;
+    font-size: 2.75rem;
+    color: black;
+}
+
+.product_sHeading {
+    padding: 0 10%;
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.product_data {
+    font-size: 1.5rem;
+    color: rgba(15, 15, 15, 0.726);
+    text-align: center;
+    padding: 0 10%;
+}
+
+.product_bg_image {
+    padding: 2%;
+}
+
+.PriImg {
+    margin-left: 37%;
+}
+
+.SoilM{
+    width:100%; 
+    height: 50vh;
+}
+
+.btn-pr {
+    margin-left: 10%;
+}
+
+.btn-pr:hover {
+    color:rgba(0, 0, 0, 0.685);
+}
+
+.ambient_img {
+    margin-left: 5%;
+    height: 40vh;
+    float:left;
+}
+
+.baro_img {
+    margin-left: 15%;;
+}
+
+.datalogger {
+    height: 50vh; 
+    margin-left: 25%;
+}
+
+.downward {
+    margin-top: 0%;
+}
+
+.pv_img {
+    margin-left: 18%;
+}
+
+.pyrano_img {
+    margin-left: 20%;
+}
+
+.pyran_img {
+    margin-left: 5%;
+    height: 40vh;
+    float:left;
+}
+
+.downward_pyran {
+    margin-top: 0%;
+}
+
+@media (min-width:321px) and (max-width: 770px)
+{
+ .Bimg
+ {
+  height:45vh;
+  width:100%;
+ }
+
+ .B1img {
+     width: 100%;
+ }
+ .btn-pr {
+    margin-right: 10%;
+    margin-bottom: 20%;
+}
+.PriImg {
+    margin-left: 0;
+}
+
+.SoilM {
+    height: 20vh;
+}
+
+.ambient_img {
+    margin-left: 30%;
+    height: 40vh;
+    float:left;
+}
+
+
+.datalogger {
+    height: 50vh; 
+    margin-left: 0;
+}
+
+.pv_img {
+    margin-left: 0;
+}
+
+
+.downward {
+    margin-top: 95%;
+}
+
+.pyrano_img {
+    margin-left: 10%;
+}
+
+.pyran_img {
+    margin-bottom: -70%;;
+    margin-left: 0;
+    height: 40vh;
+    float:none;
+}
+
+.downward_pyran {
+    margin-top: 50%;
+}
+
+
+}
