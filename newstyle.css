@@ -105,9 +105,15 @@ vertical-align:middle;
 /* ------------------------------------------------------------------------------------------------ */
    
 .product-size{
+    box-shadow: 2px 2px 5px gray;
     height:250px;
     max-height: 250px;
     width:348px;
     max-width: 348px;
+    border-radius: 5px;
+    
 }
  
+ #product-heading{
+     margin-top:1rem;
+ }
