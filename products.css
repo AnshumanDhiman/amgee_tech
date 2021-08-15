@@ -14,7 +14,7 @@
 
 .product_data {
     font-size: 1.5rem;
-    color: rgba(15, 15, 15, 0.726);
+    color: black;
     text-align: justify;
     padding: 0 10%;
 }
@@ -69,12 +69,22 @@
 
 .pyran_img {
     margin-left: 5%;
-    height: 40vh;
+    height: 35vh;
     float:left;
 }
 
 .downward_pyran {
     margin-top: 0%;
+}
+
+.btn-chloro {
+    margin-left: 31%;
+}
+
+.pyrano_heading {
+    margin-top: -5%;
+
+    margin-left: 55%;
 }
 
 @media (min-width:321px) and (max-width: 770px)
@@ -84,6 +94,13 @@
   height:45vh;
   width:100%;
  }
+
+ .pyrano_heading {
+    margin-top: 0;
+    
+    margin-left: 0;
+}
+
 
  .B1img {
      width: 100%;
