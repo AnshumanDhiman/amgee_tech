@@ -1,3 +1,16 @@
+/* Button Css */
+.button_custom {
+    margin:auto;
+  display:block;
+}
+
+.image {
+    max-width: 100%;
+    max-height: 40vh;
+}
+
+
+/* Written Data CSS */
 .products_heading {
     padding: 2% 2% 0% ;
     text-align: center;
@@ -23,22 +36,13 @@
     padding: 2%;
 }
 
-.PriImg {
-    margin-left: 37%;
-}
 
 .SoilM{
     width:100%; 
     height: 50vh;
 }
 
-.btn-pr {
-    margin-left: 10%;
-}
 
-.btn-pr:hover {
-    color:rgba(0, 0, 0, 0.685);
-}
 
 .ambient_img {
     margin-left: 5%;
@@ -46,9 +50,7 @@
     float:left;
 }
 
-.baro_img {
-    margin-left: 15%;;
-}
+
 
 .datalogger {
     height: 50vh; 
@@ -63,9 +65,7 @@
     margin-left: 18%;
 }
 
-.pyrano_img {
-    margin-left: 20%;
-}
+
 
 .pyran_img {
     margin-left: 5%;
@@ -77,9 +77,6 @@
     margin-top: 0%;
 }
 
-.btn-chloro {
-    margin-left: 31%;
-}
 
 .pyrano_heading {
     margin-top: -5%;
@@ -105,13 +102,7 @@
  .B1img {
      width: 100%;
  }
- .btn-pr {
-    margin-right: 10%;
-    margin-bottom: 20%;
-}
-.PriImg {
-    margin-left: 0;
-}
+
 
 .SoilM {
     height: 20vh;
@@ -138,9 +129,7 @@
     margin-top: 95%;
 }
 
-.pyrano_img {
-    margin-left: 10%;
-}
+
 
 .pyran_img {
     margin-bottom: -70%;;
