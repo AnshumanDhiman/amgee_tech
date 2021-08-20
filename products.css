@@ -4,8 +4,20 @@
   display:block;
 }
 
+.image_custom {
+    max-width:100%;
+    max-height: 40vh;
+    margin:auto;
+  display:block;
+}
+
 .image {
     max-width: 100%;
+    max-height: 40vh;
+}
+
+.image1 {
+    width: 400px;
     max-height: 40vh;
 }
 
@@ -26,8 +38,8 @@
 }
 
 .product_data {
-    font-size: 1.5rem;
-    color: black;
+    font-size: 1.1rem;
+    color: rgb(22, 21, 21);
     text-align: justify;
     padding: 0 10%;
 }
@@ -36,6 +48,9 @@
     padding: 2%;
 }
 
+.float {
+    float: left;
+}
 
 .SoilM{
     width:100%; 
@@ -57,10 +72,6 @@
     margin-left: 25%;
 }
 
-.downward {
-    margin-top: 0%;
-}
-
 .pv_img {
     margin-left: 18%;
 }
@@ -70,12 +81,9 @@
 .pyran_img {
     margin-left: 5%;
     height: 35vh;
-    float:left;
+    
 }
 
-.downward_pyran {
-    margin-top: 0%;
-}
 
 
 .pyrano_heading {
@@ -93,15 +101,11 @@
  }
 
  .pyrano_heading {
-    margin-top: 0;
+    margin-top: 45%;
     
     margin-left: 0;
 }
 
-
- .B1img {
-     width: 100%;
- }
 
 
 .SoilM {
@@ -114,20 +118,11 @@
     float:left;
 }
 
-
-.datalogger {
-    height: 50vh; 
-    margin-left: 0;
-}
-
 .pv_img {
     margin-left: 0;
 }
 
 
-.downward {
-    margin-top: 95%;
-}
 
 
 
