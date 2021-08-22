@@ -16,6 +16,13 @@
     max-height: 40vh;
 }
 
+.image_unstreched {
+    max-width: 50%;
+    max-height: 40vh;
+    margin:auto;
+    display:block;
+}
+
 .image1 {
     width: 400px;
     max-height: 40vh;
@@ -34,7 +41,7 @@
     padding: 0 10%;
     color: black;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .product_data {
@@ -121,10 +128,6 @@
 .pv_img {
     margin-left: 0;
 }
-
-
-
-
 
 .pyran_img {
     margin-bottom: -70%;;
